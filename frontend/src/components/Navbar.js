@@ -38,10 +38,6 @@ function Navbar () {
             !JSON.parse(localStorage.getItem("dark-mode"))
         );
         setDarkMode(JSON.parse(localStorage.getItem("dark-mode")));
-        // const [darkMode, setDarkMode] = useState(JSON.parse(localStorage.getItem("dark-mode")) || false);
-        // console.log(darkMode)
-        // console.log(localStorage.getItem("dark-mode"), "----", darkMode);
-        // console.log(localStorage.getItem("dark-mode"))
     };
 
     return (
